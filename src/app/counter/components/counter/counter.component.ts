@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
     `,
   selector:'app-counter'
 })
+
 export class CounterComponent {
   private static DEFAULT_COUNTER: number = 10;
   public counter: number = CounterComponent.DEFAULT_COUNTER;
@@ -25,3 +26,4 @@ export class CounterComponent {
   }
 
 }
+
